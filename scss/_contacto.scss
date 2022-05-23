@@ -47,6 +47,7 @@
     }
     section {
       text-align: center;
+      background-image: url(../Multimedia/fondocontacto.jpg);
     }
     .contacto_section {
       padding: 10px;
@@ -103,9 +104,10 @@
     }
     section {
       text-align: center;
+  
     }
     .contacto_section {
-      padding: 10px;
+      
       text-align: center;
     }
     .body_div_titulo {
@@ -114,11 +116,16 @@
       color: #71ff33;
       font-family: georgia;
     }
+  
     .contenedordeformulario {
-      text-align: center;
-      align-items: center;
-      padding: 20px;
-    }
+        text-align: center;
+        align-items: center;
+        width: min-content;
+        
+        margin-bottom: 30px;
+      }
+      .atributo { text-align: left;}
+    
     .imput_contacto {
       text-align: center;
     }

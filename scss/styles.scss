@@ -19,27 +19,13 @@
     color: blue;
   }
   
-  footer {
-    background-image: linear-gradient(to top violet, black);
-    background-size: cover;
-  }
+
   
   .titulo_index {
     color: #71ff33;
   }
   
-  .imagenlogo {
-    display: flex;
-    width: 100px;
-    height: 100px;
-  }
-  
-  section {
-    background-image: url(../Multimedia/fondoindex2.jpg);
-    background-size: cover;
-    width: 100%;
-  }
-  
+
   li {
     list-style: none;
   }
@@ -53,16 +39,9 @@
     color: blue;
   }
   
-  footer {
-    background-image: linear-gradient(to top violet, black);
-    background-size: cover;
-  }
   
-  .imagenlogo {
-    display: flex;
-    width: 100px;
-    height: 100px;
-  }
+  
+
   
   @media only screen and (max-width: 468px) {
     .nav {
@@ -135,13 +114,15 @@
     }
     .servicios_contenido3 {
       width: 100%;
+      width: max-content;
     }
     .servicios_contenido3_subtitulo {
       color: #71ff33;
       text-align: center;
+      
     }
     .servicios_contenido3_imagen {
-      width: 350px;
+      width: 100%;
       text-align: center;
     }
     .servicios_contenido3_texto {
@@ -371,11 +352,13 @@
     .servicios_contenedor {
       align-items: center;
       text-align: center;
+      padding: 10px;
     }
     .servicios_contenedor_contenido1 {
       width: 100%;
       align-items: center;
       text-align: center;
+      padding: 10px;
     }
     .servicios_contenido1_subtitulo {
       color: #71ff33;
@@ -394,6 +377,7 @@
       align-items: center;
       text-align: center;
       color: #71ff33;
+    padding: 20px;
     }
     .servicios_contenido1_texto2 {
       color: #71ff33;
@@ -487,7 +471,9 @@
       color: #fff;
       font-family: georgia;
       text-align: center;
+      display: inline;
     }
+    .titulo { display: inline;}
     .a_servicios {
       color: violet;
     }
@@ -530,7 +516,7 @@
   }
   
   footer {
-    background-image: linear-gradient(to top violet, black);
+    background-image: linear-gradient( violet, black);
     background-size: cover;
   }
   
@@ -544,9 +530,7 @@
     height: 100px;
   }
   
-  section {
-    background-image: url(../Multimedia/fondoindex2.jpg);
-  }
+  
   
  
   

@@ -1,7 +1,16 @@
 @media only screen and (max-width: 468px) {
     header {
-      background-image: url(../Multimedia/fondonav.jpg);
       height: 75px;
+      display: block;
+    
+    }
+
+    .navbar {
+      background-image: url(../Multimedia/46044-color-blanco.jpg);
+    }
+
+    .offcanvas {
+      background-image: url(../Multimedia/46044-color-blanco.jpg);
     }
   
     nav {
@@ -21,31 +30,13 @@
     }
   
     .contenedor_titulo {
-      transform: translate(60px,20px);
-      transform: rotate(5deg);
       display: block;
       text-align: center;
       align-items: center;
       width: 100%;
-      :hover{ color: yellow;}
+
     }
 
-    @keyframes aparecer {
-      0% {opacity: 100%}
-      25% {opacity: 75%}
-      50% {opacity: 50%}
-      75% {opacity: 25%}
-      100% {opacity: 0%}
-    }
-
-    .contenedor_titulo {
-      animation-name: aparecer;
-      animation-delay: 2s;
-      animation-duration: 3s;
-      animation-iteration-count: infinite;
-    }
-
-  
     .titulo_index {
       font-size: 30px;
       text-align: center;
@@ -73,11 +64,13 @@
       display: flex;
       flex-direction: column;
       
+      
     }
 
     .contenedorgeneral1{
       display: flex;
       flex-direction: column;
+     
     }
 
 
@@ -89,12 +82,7 @@
     .contenedor_relevamiento {
       text-align: center;
       display: block;
-      height: 400px;
-      transition: height 4seg;
-    }
-
-    .contenedor_relevamiento :hover{
-      height: 100px;
+      
     }
 
     .relevamiento_index {
@@ -107,6 +95,7 @@
   
     .texto_relevamiento {
       color: #71ff33;
+      display: inline;
     }
     .contenedor_replanteo {
       align-items: center;
@@ -174,9 +163,9 @@
       color: #71ff33;
     }
     footer {
-      width: 100%;
-      background-image: radial-gradient(violet, black);
+      background-image: url(../Multimedia/1090-colores-oscuros.jpg);
       background-size: 100%;
+      background-size: cover;
       text-align: center;
     }
     .logo1 {
@@ -186,10 +175,13 @@
   
   @media only screen and (min-width: 469px) and (max-width: 1023px) {
     header {
-      background-image: url(../Multimedia//fondonav.jpg);
-      height: auto;
+      background-image: url(../Multimedia/1090-colores-oscuros.jpg);
+      
       height: 100px;
       display: block;
+      background-size: cover;
+
+      
     }
   
     body {
@@ -202,6 +194,10 @@
       align-items: center;
       margin-top: 20px;
       margin-left: 90px;
+      background-image: url(../Multimedia/46044-color-blanco.jpg);
+    }
+    .offcanvas {
+      background-image: url(../Multimedia/46044-color-blanco.jpg);
     }
   
     .divnavbar {
@@ -268,7 +264,7 @@
       width: 40%;
     }
     .subtitulo_index {
-      font-size: 20px;
+      
       font-family: georgia;
       display: block;
       margin-top: 25px;
@@ -276,6 +272,7 @@
       font-size: 20px;
       text-align: end;
       width: 75%;
+      margin-left: 10px;
     }
     .contenedor_relevamiento {
       display: block;
@@ -355,28 +352,35 @@
     }
     .titulo_footer {
       color: #fff;
+      display: inline;
     }
     .texto_footer {
       color: #fff;
     }
     footer {
-      background-image: radial-gradient(violet, black);
+      background-image: url(../Multimedia/1090-colores-oscuros.jpg);
       background-size: 100%;
       background-size: cover;
       text-align: center;
     }
+    
     .logo1 {
       width: 50px;
     }
   }
   
   @media only screen and (min-width: 1024px) {
-    header {
-      background-image: url(../Multimedia//fondonav.jpg);
-      height: auto;
-      height: 100px;
-      display: block;
-    }
+    
+      header {
+        background-image: url(../Multimedia/1090-colores-oscuros.jpg);
+        
+        height: 100px;
+        display: block;
+        background-size: cover;
+  
+        
+      }
+    
   
     body {
       display: block;
@@ -389,12 +393,20 @@
       align-items: center;
       margin-top: 20px;
       margin-left: 90px;
+     background-image: url(../Multimedia/46044-color-blanco.jpg);
     }
+
+    .offcanvas {
+      background-image: url(../Multimedia/46044-color-blanco.jpg);
+    }
+
   
     .divnavbar {
       display: inline-block;
       text-align: center;
     }
+
+    
   
     .div_contenido {
       display: flex;
@@ -472,7 +484,7 @@
       text-align: center;
     }
     .relevamiento_index {
-      font-size: 25px;
+      font-size: 30px;
       color: #71ff33;
     }
     .contenedor_fotoderelevamiento {
@@ -547,7 +559,7 @@
       display: inline-block;
     }
     footer {
-      background-image: radial-gradient(violet, black);
+      background-image: url(../Multimedia/1090-colores-oscuros.jpg);
       background-size: 100%;
       background-size: cover;
       text-align: center;
@@ -555,5 +567,10 @@
     .logo1 {
       width: 50px;
     }
-  }
+    .titulo {
+      display: inline;
+    }
+
+    }
+  
   
