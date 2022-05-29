@@ -120,18 +120,25 @@
     .contenedordeformulario {
         text-align: center;
         align-items: center;
-        width: min-content;
-        
-        margin-bottom: 30px;
+        padding: 20px;
       }
-      .atributo { text-align: left;}
-    
-    .imput_contacto {
-      text-align: center;
+     
+  
+    .contenidodeformulario_contraseña {
+       margin-right:23px;
+      margin-bottom: 30px;
     }
-    .contenidodeformulario {
-      padding: 20px;
-      text-align: center;
+
+    .contenidoformulario_apellido{
+      margin-left: 10px;
+    }
+
+    .contenidodeformulario_correo{
+      margin-left: 17px;
+    }
+
+    .contenidodeformulario_nombre{
+      margin-right: 7px;
     }
     label {
       color: #71ff33;

@@ -21,16 +21,20 @@
     }
   
     .quienessomos_section_subtitulo_imagen{width: 350px;}
-    .quienessomos_section_contenido {
-      width: 400px;
+    .quienessomos_section_contenido1 {
+     
       text-align: center;
+      width: max-content;
     }
    
     .quienessomos_section_subtitulo_parrafo {
       color: #71ff33;
     }
     .quienessomos_section_contenido2 {
-      width: 100px;
+      
+      display:flex;
+      
+      
     }
     .contenido2_subtitulo {
       color: #71ff33;
@@ -39,6 +43,7 @@
     .quienessomos_contenido2_texto {
       color: #71ff33;
       text-align: justify;
+      margin: 40px;
     }
     .quienessomos_contenido3_subtitulo {
       color: #71ff33;
@@ -47,11 +52,11 @@
       color: #71ff33;
       text-align: justify;
     }
-    .quienessomos_contenido3_imagen {
-      width: 400px;
+    .quienessomos_contenido3_imagen{
+      width: 300px ;
     }
     .quienessomos_section_contenido4 {
-      width: 400px;
+      width: 300px;
       text-align: center;
     }
     .quienessomos_contenido_texto {
@@ -59,6 +64,10 @@
     }
     .quienessomos_contenido4_subtitulo {
       color: #71ff33;
+      width: 500px;
+    }
+    .quienessomos_contenido4_video{
+      width: 100px;
     }
     .quienessomos_contenido_texto {
       color: #71ff33;
@@ -67,13 +76,16 @@
       color: #fff;
     }
   
-    .quienessomos_contenido4_video{width: 500px;}
+    
+
     footer {
       padding: 20px;
     }
     .titulo {
       color: #fff;
     }
+    
+
   
   }
   
@@ -111,9 +123,7 @@
     .quienessomos_section_subtitulo_imagen {
       width: 400px;
     }
-    .quienessomos_section_subtitulo_imagen {
-      width: 300px;
-    }
+   
     .quienessomos_section_subtitulo_parrafo {
       color: #71ff33;
     }
@@ -134,6 +144,9 @@
     .quienessomos_contendio3_texto {
       color: #71ff33;
       text-align: justify;
+    }
+    .quienessomos_contenido3_imagen{
+      width: 500px;
     }
     .quienessomos_section_contenido4 {
       width: 100%;

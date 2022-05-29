@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   padding: 0;
   margin: 0;
@@ -727,7 +728,7 @@ footer {
     font-size: 30px;
     color: #71ff33; }
   .contenedor_fotoderelevamiento {
-    width: 500px; }
+    width: 450px; }
   .contenedor_replanteo {
     display: block;
     max-width: min-content;
@@ -754,14 +755,14 @@ footer {
     font-size: 25px;
     font-family: Georgia; }
   .contenedor_foto_inspeccion {
-    width: 500px; }
+    width: 450px; }
   .index_video {
     text-align: center;
     width: min-content; }
   .contendedor_subtitulo_drone {
     color: #71ff33; }
   .video_index {
-    width: 500px; }
+    width: 550px; }
   .contenedortexto_video {
     font-family: georgia;
     font: 20px; }
@@ -878,15 +879,16 @@ footer {
   .contenedordeformulario {
     text-align: center;
     align-items: center;
-    width: min-content;
+    padding: 20px; }
+  .contenidodeformulario_contraseña {
+    margin-right: 23px;
     margin-bottom: 30px; }
-  .atributo {
-    text-align: left; }
-  .imput_contacto {
-    text-align: center; }
-  .contenidodeformulario {
-    padding: 20px;
-    text-align: center; }
+  .contenidoformulario_apellido {
+    margin-left: 10px; }
+  .contenidodeformulario_correo {
+    margin-left: 17px; }
+  .contenidodeformulario_nombre {
+    margin-right: 7px; }
   label {
     color: #71ff33;
     font-family: georgia; }
@@ -917,39 +919,41 @@ footer {
     font-size: 25px; }
   .quienessomos_section_subtitulo_imagen {
     width: 350px; }
-  .quienessomos_section_contenido {
-    width: 400px;
-    text-align: center; }
+  .quienessomos_section_contenido1 {
+    text-align: center;
+    width: max-content; }
   .quienessomos_section_subtitulo_parrafo {
     color: #71ff33; }
   .quienessomos_section_contenido2 {
-    width: 100px; }
+    display: flex; }
   .contenido2_subtitulo {
     color: #71ff33;
     display: block; }
   .quienessomos_contenido2_texto {
     color: #71ff33;
-    text-align: justify; }
+    text-align: justify;
+    margin: 40px; }
   .quienessomos_contenido3_subtitulo {
     color: #71ff33; }
   .quienessomos_contendio3_texto {
     color: #71ff33;
     text-align: justify; }
   .quienessomos_contenido3_imagen {
-    width: 400px; }
+    width: 300px; }
   .quienessomos_section_contenido4 {
-    width: 400px;
+    width: 300px;
     text-align: center; }
   .quienessomos_contenido_texto {
     width: auto; }
   .quienessomos_contenido4_subtitulo {
-    color: #71ff33; }
+    color: #71ff33;
+    width: 500px; }
+  .quienessomos_contenido4_video {
+    width: 100px; }
   .quienessomos_contenido_texto {
     color: #71ff33; }
   .subtitulo_quienessomos {
     color: #fff; }
-  .quienessomos_contenido4_video {
-    width: 500px; }
   footer {
     padding: 20px; }
   .titulo {
@@ -981,8 +985,6 @@ footer {
     font-size: 25px; }
   .quienessomos_section_subtitulo_imagen {
     width: 400px; }
-  .quienessomos_section_subtitulo_imagen {
-    width: 300px; }
   .quienessomos_section_subtitulo_parrafo {
     color: #71ff33; }
   .quienessomos_section_contenido2 {
@@ -998,6 +1000,8 @@ footer {
   .quienessomos_contendio3_texto {
     color: #71ff33;
     text-align: justify; }
+  .quienessomos_contenido3_imagen {
+    width: 500px; }
   .quienessomos_section_contenido4 {
     width: 100%;
     text-align: center; }
