@@ -146,12 +146,18 @@
     }
     .titulo {
       color: #fff;
+      display: inline;
     }
+
+    
     .boton {
       text-align: center;
       margin-top: 20px;
     }
     .text_footer {
       color: #fff;
+    }
+    footer {
+      width: 100%;
     }
   }
